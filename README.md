@@ -22,8 +22,8 @@ example = [[6],[3,5],[9,7,1],[4,6,8,4]]
 ## Solutions
 Two solutions were implemented: 
 
-1. Brute force: Test every possibles from top to down and compare what is bigger total sum. O(2^n)
-2. Optimazed: Find the bigger total using solution from down to top without test every possibles. O(n²)
+1. Brute force: Test every possibles from top to down and compare what is biggest total sum. O(2^n)
+2. Optimazed: Find the biggest total using solution from down to top without test every possibles ways. O(n²)
 
 
 ## Running
@@ -34,7 +34,7 @@ You can use this commands in a terminal:
   
   python HellTriangle.py "[[6], [3,5], [9,7,1], [4,6,8,4]]"
 ```
-If you don't pass arguments the program load a triangle of test
+If you don't pass arguments the program load a triangle of example/test:
 ```
                          55
                         94 48
