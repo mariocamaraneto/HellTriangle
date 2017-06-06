@@ -22,7 +22,7 @@ data = """                         55
 27 02 92 23 08 71 76 84 15 52 92 63 81 10 44 10 69 93"""
 
 
-def solve(triangle ):
+def solve(triangle):
     """Solve the problem with solution from down to top
     """
     for i in range(len(triangle)-2, -1, -1):

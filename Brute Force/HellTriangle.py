@@ -22,7 +22,7 @@ data = """                         55
 27 02 92 23 08 71 76 84 15 52 92 63 81 10 44 10 69 93"""
 
 
-class HellTriagle(object):
+class HellTriangle(object):
 
     def __init__(self):
         self.max_sum=0
@@ -104,7 +104,7 @@ def printvv(text):
         print(text)
         
 if __name__ == '__main__':
-    triangle = HellTriagle()
+    triangle = HellTriangle()
     triangle.load_triangle_input()
     print(triangle.solve())
     printv("Best way is {}".format(triangle.best_way))
